@@ -2,9 +2,9 @@ var React=require('react');
 
 
 
-var WeatherMessage=(props)=>
+var WeatherMessage=({temp,location})=>
 {
-      var {temp, location}=props;
+
   return(
     <h3>It's {temp} celcius at {location} !!</h3>
   );
