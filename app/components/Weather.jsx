@@ -24,7 +24,7 @@ var Weather=React.createClass({
 {
   that.setState({isLoading: false});
   alert(errorMessage);
-  
+
 });
   },
   render: function(){
@@ -45,7 +45,7 @@ var Weather=React.createClass({
 
 {renderMessage()}
     </div>
-    );
+    )
   }
 });
 
