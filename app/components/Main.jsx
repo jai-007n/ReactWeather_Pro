@@ -3,9 +3,9 @@ var Nav = require('Nav');
 
 var Main = (props) => {
   return (
-    <div>
+    <div className=" new_color_for">
       <Nav/>
-      <div className="row">
+      <div className="row ">
         <div className="columns medium-6 large-4 small-centered">
           {props.children}
         </div>
